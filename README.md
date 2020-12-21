@@ -1,2 +1,2 @@
-# Jordan Carver Portfolio Using REACT
+# My Portfolio via REACT
 
