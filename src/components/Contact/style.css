@@ -1,0 +1,34 @@
+input:focus, textarea:focus, button:focus {
+    outline:none !important;
+}
+
+input, textarea, button {
+    border-radius: 5px !important;
+}
+
+label {
+    visibility: hidden;
+    position: absolute;
+}
+
+input, textarea {
+    width: 80%;
+    margin: 5px !important;
+}
+
+button {
+    background-color: #eaeeed70;
+    color: #12f3d5;
+}
+
+button:focus {
+    background-color: #63d6a6;
+    color: #1abd71;
+    transition: all .2s;
+}
+
+button:hover {
+    color: #07399765;
+    background-color: #12ecf3;
+    transition: all .2s;
+}

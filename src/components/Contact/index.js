@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
-
+import './style.css';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: ''});
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
     const handleSubmit = (e) => {
+        console.log(e.target.children);
         e.preventDefault();
         if (!errorMessage) {
-            console.log('Submit Form', formState);
+            setFormState({[e.target.name]: e.target.name });
+            console.log('Form', formState);
         }
     };
 
@@ -30,27 +32,23 @@ function ContactForm() {
                 setErrorMessage('');
             }
         }
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-            console.log('Handle Form', formState);
-        }
     };
 
     return (
         <section>
-            <h1 data-testid="h1tag">"Contact Me" Coming Soon ... Email me: <a href = "mailto:uubootcampjc@gmail.com"></a></h1>
+            <h2 data-testid="h2tag">Contact Me: <a href = "mailto:uubootcampjc@gmail.com"></a></h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    <input type="text" name="name" defaultValue={name} onChange={handleChange} placeholder='Name:' />
                 </div>
                 <div>
                     <label htmlFor="email">Email Address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    <input type="email" name="email" defaultValue={email} onChange={handleChange} placeholder='Email:' />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
-                    <input name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    <input name="message" rows="5" defaultValue={message} onChange={handleChange} placeholder='Message:' />
                 </div>
                 {errorMessage && (
                     <div>

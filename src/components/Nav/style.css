@@ -1,0 +1,9 @@
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navActive {
+    color: #12f3e89a;
+    text-shadow: 4px 4px#ffffff;
+}

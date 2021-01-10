@@ -1,0 +1,8 @@
+.jumbo {
+    background-color: #087045 !important;
+    background-image: url('./assets/banner-art.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
