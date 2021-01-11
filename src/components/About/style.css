@@ -1,0 +1,10 @@
+.about {
+    height: fit-content;
+    margin: 2em;
+    text-align: left !important;
+}
+
+.profile-picture {
+    height: 160px;
+    border-radius: 10%;
+}
