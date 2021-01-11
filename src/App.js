@@ -12,7 +12,7 @@ function App() {
 
   function displaySection(page) {
     switch (page) {
-      case 'About me':
+      case 'About':
         return <About />;
       case 'Contact':
         return <ContactForm />;

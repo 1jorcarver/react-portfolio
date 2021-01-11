@@ -12,23 +12,23 @@ label {
 }
 
 input, textarea {
-    width: 80%;
-    margin: 5px !important;
+    width: 60%;
+    margin: 8px !important;
 }
 
 button {
-    background-color: #eaeeed70;
-    color: #12f3d5;
+    color: #ffffff;
+    background-color: #3c4242;
 }
 
 button:focus {
-    background-color: #63d6a6;
-    color: #1abd71;
+    background-color: #ffffff;
+    color: #f9fdfb;
     transition: all .2s;
 }
 
 button:hover {
-    color: #07399765;
-    background-color: #12ecf3;
+    color: #000000;
+    background-color: #ffffff;
     transition: all .2s;
 }

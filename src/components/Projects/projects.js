@@ -6,13 +6,7 @@ import backEnd from './assets/orm.png';
 import noSQL from './assets/nosql.png';
 
 const projects = [
-    {
-        title: 'professional-portfolio',
-        source: professionalPortfolio,
-        description: 'A basic css and html portfolio website.',
-        link: 'https://1jorcarver.github.io/professional-portfolio/',
-        repo: 'https://github.com/1jorcarver/professional-portfolio'
-    },
+
     {
         title: 'Put-A-Ring-On-It',
         source: putaRingonit,
@@ -28,9 +22,16 @@ const projects = [
         repo: 'https://github.com/1jorcarver/recipe-finder'
     },
     {
+        title: 'professional-portfolio',
+        source: professionalPortfolio,
+        description: 'A basic css and html portfolio website.',
+        link: 'https://1jorcarver.github.io/professional-portfolio/',
+        repo: 'https://github.com/1jorcarver/professional-portfolio'
+    },
+    {
         title: 'employee-tracker',
         source: employeeTracker,
-        description: 'A web application that uses SQL to track employees.',
+        description: 'A web app which uses SQL to track employees.',
         link: 'https://youtu.be/15haGQQgzjk',
         repo: 'https://github.com/1jorcarver/employee-tracker'
     },

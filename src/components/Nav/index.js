@@ -4,7 +4,7 @@ import './style.css';
 function Navigation(props) {
     const pages = [
         {
-            name: 'About me'
+            name: 'About'
         },
         {
             name: 'Projects'

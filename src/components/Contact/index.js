@@ -36,7 +36,7 @@ function ContactForm() {
 
     return (
         <section>
-            <h2 data-testid="h2tag">Contact Me: <a href = "mailto:uubootcampjc@gmail.com"></a></h2>
+            <h2 data-testid="h2tag">Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>

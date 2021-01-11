@@ -15,7 +15,7 @@ function Projects() {
                             <p className='card-text'>{project.description}</p>
                             <a href={project.link} target='_blank' rel='noreferrer'>Click to Deploy!</a>
                             <br/>
-                            <a href={project.repo} target='_blank' rel='nonreferrer'>Click for the Repo!</a>
+                            <a href={project.repo} target='_blank' rel='noreferrer'>Click for the Repo!</a>
                         </div>
                     </div>
                 );
