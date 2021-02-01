@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.85a69345.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.40af7e47.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.40af7e47.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.b04aa0ab.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b04aa0ab.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.65776eab.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.65776eab.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/react-portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.20aa2d7b.chunk.css.map": "/react-portfolio/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.85a69345.chunk.css.map": "/react-portfolio/static/css/main.85a69345.chunk.css.map",
     "static/js/2.b927b636.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b927b636.chunk.js.LICENSE.txt",
+    "static/media/MERN.2a322d9a.png": "/react-portfolio/static/media/MERN.2a322d9a.png",
     "static/media/style.css": "/react-portfolio/static/media/banner-art.4b8084bf.jpg",
     "static/media/css-portfolio.b7eabf05.png": "/react-portfolio/static/media/css-portfolio.b7eabf05.png",
     "static/media/nosql.3c0e7b9d.png": "/react-portfolio/static/media/nosql.3c0e7b9d.png",
@@ -29,6 +30,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.b927b636.chunk.js",
     "static/css/main.85a69345.chunk.css",
-    "static/js/main.40af7e47.chunk.js"
+    "static/js/main.b04aa0ab.chunk.js"
   ]
 }
