@@ -1,4 +1,5 @@
 import professionalPortfolio from './assets/css-portfolio.png';
+import dinoStore from './assets/MERN.png';
 import recipeFinder from './assets/serverside-api.png';
 import putaRingonit from './assets/orm-mvc.png';
 import employeeTracker from './assets/sql.png';
@@ -7,6 +8,13 @@ import noSQL from './assets/nosql.png';
 
 const projects = [
 
+    {
+        title: 'Dino-Store',
+        source: dinoStore,
+        description: 'A full-stack MERN ecommerce app.',
+        link: 'https://ancient-lake-97986.herokuapp.com/',
+        repo: 'https://github.com/1jorcarver/dino-store'
+    },
     {
         title: 'Put-A-Ring-On-It',
         source: putaRingonit,
